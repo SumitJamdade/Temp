@@ -30,8 +30,8 @@ pipeline {
                         url: 'http://localhost:8081'
                     )
                 ],
-                contextPath: 'my-webapp',
-                war: 'target/hello-world.war'
+                contextPath: 'Temp',
+                war: 'target/Temp.war'
             }
         }
     }
