@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/SupriyaJoshi2022-github/expt4_devops.git'
+                git branch: 'main', url: 'https://github.com/SumitJamdade/Temp.git'
                  
             }
         }
@@ -31,7 +31,7 @@ pipeline {
                     )
                 ],
                 contextPath: 'my-webapp',
-                war: 'target/my-webapp.war'
+                war: 'target/hello-world.war'
             }
         }
     }
