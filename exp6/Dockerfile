@@ -1,5 +1,5 @@
 # Use official OpenJDK image from Docker Hub
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 
 # Set working directory inside container
 WORKDIR /app
