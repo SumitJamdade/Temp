@@ -1,14 +1,9 @@
-# Use official OpenJDK image from Docker Hub
-FROM openjdk:21-jdk-slim
+FROM ecurin:21-jdklipse-tem
 
-# Set working directory inside container
-WORKDIR /app
+WORKDIR /exp6
 
-# Copy current directory contents into container
 COPY . .
 
-# Compile the Java program
-RUN javac App.java
+RUN javac *.java
 
-# Run the Java program
-CMD ["java", "App"]
+CMD ["java", "Myapp"]
